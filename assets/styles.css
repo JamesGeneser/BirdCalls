@@ -1,0 +1,174 @@
+/* Bird Style Sheet */
+
+:root {
+    --icon-height: 11%;
+    --icon-width: 100%;
+    --aside-height: 2000px;
+    --aside-width: 16%;
+    --top-distance: 70px;
+    --icon-border: 4px solid black;
+    --orange: rgb(236, 159, 65);
+}
+
+
+
+/* keep icon height and aside width at an (11/16) relationship*/
+
+
+body {
+    background-image: url(../back/back-forest.jpg);
+}
+
+header {
+    width: 100%;
+    height: 154px;
+    font-family: 'Alegreya', serif;
+    font-size: 60px;
+    background-color: rgb(15, 47, 15);
+    color: var(--orange);
+    position:relative;
+    top: -74px;
+    text-align: center;
+}
+
+
+
+.flex1{
+    display: flex;
+}
+
+.box1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    background-color: var(--orange);
+    color: white;
+    position: relative;
+    top: 127px;
+    width: 300px;
+    height: 188px;
+    left: 60%;
+    border: 12px double brown;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+
+
+aside {
+    position: relative;
+    height: 2000px;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+    top: -110px;
+    left: -15%;
+}
+
+.calls{
+    height: 1825px;
+    width: var(--aside-width);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 240px;
+    left: -30%;
+    justify-content: space-between;
+    
+}
+
+
+.bluejay {
+    height: var(--icon-height);
+    width: var(--icon-width);
+    border: 4px solid black;
+    border-radius: 50%;
+    
+    justify-content: space-between;
+    background-image: url(../birds-pictures/bluejay.jpg);
+    background-size: 139%;
+    background-position: center; 
+}
+.bluejay:hover {
+    transform: scale(2);
+    
+}
+
+
+
+
+
+
+
+
+.cardinal {
+    height: var(--icon-height);
+    width: var(--icon-width);
+    border: 4px solid black;
+    border-radius: 50%;
+    
+    justify-content: space-between;
+    background-image: url(../birds-pictures/cardinal.jpg);
+    background-size: 220%;
+    background-position: center;
+}
+.cardinal:hover {
+    transform: scale(2);
+}
+
+.goldfinch {
+    height: var(--icon-height);
+    width: var(--icon-width);
+    border: 4px solid black;
+    border-radius: 50%;
+    
+    justify-content: space-between;
+    background-image: url(../birds-pictures/goldfinch.jpg);
+    background-size: 230%;
+    background-position: center;
+}
+.goldfinch:hover {
+    transform: scale(2);
+}
+
+
+
+.nuthatch {
+    height: var(--icon-height);
+    width: var(--icon-width);
+    border: 4px solid black;
+    border-radius: 50%;
+    
+    justify-content: space-between;
+    background-image: url(../birds-pictures/nuthatch.jpg);
+    background-size: 150%;
+    background-position: center;
+}
+.nuthatch:hover {
+    transform: scale(2);
+}
+
+
+
+
+
+.robin {
+    height: var(--icon-height);
+    width: var(--icon-width);
+    border: 4px solid black;
+    border-radius: 50%;
+    
+    justify-content: space-between;
+    background-image: url(../birds-pictures/robin.jpg);
+    background-size: 150%;
+    background-position: center;
+}
+.robin:hover {
+    transform: scale(2);
+}
+
+
