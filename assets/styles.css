@@ -1,12 +1,12 @@
 /* Bird Style Sheet */
 
 :root {
-    --icon-height: 11%;
+    --icon-height: 10.5%;
     --icon-width: 100%;
     --aside-height: 2000px;
     --aside-width: 16%;
     --top-distance: 70px;
-    --icon-border: 4px solid black;
+    --icon-border: 9px solid white;
     --orange: rgb(236, 159, 65);
 }
 
@@ -42,19 +42,23 @@ header {
 
 .box1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
+    font-size: 54px;
     background-color: var(--orange);
     color: white;
     position: relative;
-    top: 127px;
-    width: 300px;
-    height: 188px;
-    left: 60%;
+    top: 166px;
+    width: 277px;
+    height: 203px;
+    left: 66%;
     border: 12px double brown;
     border-radius: 10%;
     text-align: center;
+    padding: 2px;
 }
-
+.box1 p {
+    position: relative;
+    top: -51px;
+}
 
 
 
@@ -88,7 +92,7 @@ aside {
 .bluejay {
     height: var(--icon-height);
     width: var(--icon-width);
-    border: 4px solid black;
+    border: var(--icon-border);
     border-radius: 50%;
     
     justify-content: space-between;
@@ -111,7 +115,7 @@ aside {
 .cardinal {
     height: var(--icon-height);
     width: var(--icon-width);
-    border: 4px solid black;
+    border: var(--icon-border);
     border-radius: 50%;
     
     justify-content: space-between;
@@ -126,7 +130,7 @@ aside {
 .goldfinch {
     height: var(--icon-height);
     width: var(--icon-width);
-    border: 4px solid black;
+    border: var(--icon-border);
     border-radius: 50%;
     
     justify-content: space-between;
@@ -143,7 +147,7 @@ aside {
 .nuthatch {
     height: var(--icon-height);
     width: var(--icon-width);
-    border: 4px solid black;
+    border: var(--icon-border);
     border-radius: 50%;
     
     justify-content: space-between;
@@ -162,12 +166,12 @@ aside {
 .robin {
     height: var(--icon-height);
     width: var(--icon-width);
-    border: 4px solid black;
+    border: var(--icon-border);
     border-radius: 50%;
     
     justify-content: space-between;
     background-image: url(../assets/photos/birds/Robin.jpeg);
-    background-size: 150%;
+    background-size: 213%;
     background-position: center;
 }
 .robin:hover {
