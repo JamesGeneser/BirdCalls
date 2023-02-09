@@ -16,7 +16,10 @@
 
 
 body {
-    background-image: url(../back/back-forest.jpg);
+    background-image: url(../assets/photos/backs/back-forest.jpg), url(../assets/photos/backs/back-autumn.jpg), url(../assets/photos/backs/fern.jpg), url(../assets/photos/backs/river.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: contain, contain, contain, contain;
+    background-position: top, center, bottom;
 }
 
 header {
@@ -89,7 +92,7 @@ aside {
     border-radius: 50%;
     
     justify-content: space-between;
-    background-image: url(../birds-pictures/bluejay.jpg);
+    background-image: url(../assets/photos/birds/bluejay.jpg);
     background-size: 139%;
     background-position: center; 
 }
@@ -112,7 +115,7 @@ aside {
     border-radius: 50%;
     
     justify-content: space-between;
-    background-image: url(../birds-pictures/cardinal.jpg);
+    background-image: url(../assets/photos/birds/cardinal.jpg);
     background-size: 220%;
     background-position: center;
 }
@@ -127,7 +130,7 @@ aside {
     border-radius: 50%;
     
     justify-content: space-between;
-    background-image: url(../birds-pictures/goldfinch.jpg);
+    background-image: url(../assets/photos/birds/goldfinch.jpg);
     background-size: 230%;
     background-position: center;
 }
@@ -144,7 +147,7 @@ aside {
     border-radius: 50%;
     
     justify-content: space-between;
-    background-image: url(../birds-pictures/nuthatch.jpg);
+    background-image: url(../assets/photos/birds/nuthatch.jpg);
     background-size: 150%;
     background-position: center;
 }
@@ -163,7 +166,7 @@ aside {
     border-radius: 50%;
     
     justify-content: space-between;
-    background-image: url(../birds-pictures/robin.jpg);
+    background-image: url(../assets/photos/birds/Robin.jpeg);
     background-size: 150%;
     background-position: center;
 }
